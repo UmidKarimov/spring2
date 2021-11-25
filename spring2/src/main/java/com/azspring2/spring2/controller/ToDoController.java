@@ -25,7 +25,7 @@ public class ToDoController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
         catch (Exception e){
-            return ResponseEntity.badRequest().body("Error while registering user");
+            return ResponseEntity.badRequest().body("Error while creating task");
         }
     }
 }
